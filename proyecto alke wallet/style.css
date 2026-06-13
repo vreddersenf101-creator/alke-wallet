@@ -1,0 +1,87 @@
+body {
+	background: #f4f7fb;
+	font-family: Segoe UI, sans-serif;
+}
+
+#dashboard {
+	display: none;
+}
+
+.login-card {
+	max-width: 450px;
+	margin: 80px auto;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0 5px 20px rgba(0,0,0,.1);
+}
+
+.logo{
+	font-size:60px;
+	color:#2563eb;
+}
+
+.sidebar{
+	background:#0d1b2a;
+	min-height:100vh;
+	color:white;
+	padding:25px;
+}
+
+.sidebar h3{
+	text-align:center;
+	margin-bottom:40px;
+}
+
+.sidebar a{
+	display:block;
+	color:white;
+	text-decoration:none;
+	padding:12px;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+
+.sidebar a:hover{
+	background:#1b263b;
+}
+
+.card{
+	border:none;
+	border-radius:18px;
+}
+
+.card-box{
+	min-height:320px;
+	box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.saldo-card{
+	background:linear-gradient(
+		135deg,
+		#2563eb,
+		#1e40af
+	);
+	color:white;
+}
+
+.saldo{
+	font-size:2rem;
+	font-weight:bold;
+}
+
+.historial{
+	max-height:300px;
+	overflow-y:auto;
+}
+
+@media(max-width:991px){
+
+.sidebar{
+	min-height:auto;
+}
+
+.card-box{
+	min-height:auto;
+}
+
+}
